@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.letterbox {
+                                                         /* Grey text shadow */
+  transition: 
+   transform 0.3s ease,
+   box-shadow 0.3s ease;                            /*for title hover effect*/
+}
+.letterbox:hover {
+  transform: scale(1.15);
+   /*for title hover effect*/
+}
+.letterbox1 {
+  transition:
+    transform 0.3s ease,                        /*for sub title hover effect*/ 
+    box-shadow 0.3s ease;
+}
+.letterbox1:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);     /*for sub title hover effect*/
+}
+
+h1{
+letter-spacing: 20px;
+  color: rgba(160, 0, 0, 0.968);
+  font-size: 100px;                                  /*for title*/
+  font-family: "Lexend Exa Extrabold";
+  text-align: center;
+}
+p{
+  color: rgba(160, 0, 0, 0.968);
+  font-size: 25px;                                          /*for sub title*/
+  font-family: "Lexend Exa Extrabold";
+  text-align: center;
+}
+p2{
+    color:rgb(98, 93, 93);                               /*for famous line*/
+    font-family: 'Lexend Exa';
+    font-size: 40px;
+   
+    
+}
+h2{
+   text-align: center;
+    letter-spacing: 7px;
+    color:rgb(98, 93, 93);                               /*for introduction heading*/
+    font-family: 'Times New Roman';
+    font-size: 60px;
+}
+.imagebox img{
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}                                                         /*for f1 image*/
+.imagebox img:hover{
+    
+    transform:scale(1.15);
+    box-shadow: 0 10px 25px rgba(122, 119, 119, 0.5);
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;                                      /*for introduction context*/
+    font-family:'Times New Roman';
+    color:rgb(98, 93, 93); 
+}
+h{
+  text-align: center;
+  font-size: 20px;                                      /*for F1 characteristics*/
+    font-family:'Times New Roman';
+    color:rgb(98, 93, 93); }
+td{
+  font-size: 20px;                                         /*for F1 characteristics content*/
+  font-family:'Times New Roman';
+  color:rgb(98, 93, 93); 
+}
+.imagebox1 img{
+    text-align: right;
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}                                                         /*for structure of FORMULA 1*/
+.imagebox1 img:hover{
+    
+    transform:scale(1.15);
+    box-shadow: 0 10px 25px rgba(98, 93, 93, 0.836);
+    
+}
+p5{
+  text-align:left;
+  font-size: 18px;                                         /*for structure of formula 1 car content*/
+  font-family:'Times New Roman';
+  color:rgb(98, 93, 93); 
+}
+.imagebox3 img{
+    text-align: right;
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}                                                         /*for history of FORMULA 1*/
+.imagebox3 img:hover{
+    
+    transform:scale(1.15);
+    box-shadow: 0 10px 25px rgba(98, 93, 93, 0.836);}
+
+p11{
+    text-align: right;
+    letter-spacing: 7px;
+    color:rgb(98, 93, 93);                               /*for introduction heading*/
+    font-family: 'Times New Roman';
+    font-size: 60px;
+}
+p7{
+  text-align:center;
+  font-size: 18px;                                         /*for history of formula 1 car content*/
+  font-family:'Times New Roman';
+  color:rgb(98, 93, 93);}
+.image-box img{
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+}                                                         /*for f1 image*/
+.image-box img:hover{
+    
+    transform:scale(1.15);
+    box-shadow: 0 10px 25px rgba(122, 119, 119, 0.5);}
+div{
+  image-orientation: center;
+}
